@@ -13,12 +13,15 @@ Gem::Specification.new do |s|
     "README"
   ]
   s.files = [
-    "MIT-LICENSE",
+    "CHANGELOG",
+     "MIT-LICENSE",
      "README",
      "Rakefile",
      "VERSION",
      "init.rb",
      "lib/nullify_blanks.rb",
+     "nullify_blanks.gemspec",
+     "rails/init.rb",
      "tasks/nullify_blanks_tasks.rake",
      "test/fixtures/products.yml",
      "test/nullify_blanks_test.rb"
