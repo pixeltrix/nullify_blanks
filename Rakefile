@@ -26,12 +26,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
     gemspec.name = "nullify_blanks"
-    gemspec.summary = "Provides access to the Prowl API."
+    gemspec.summary = "Nullify blank columns in ActiveRecord"
     gemspec.email = "andyw@pixeltrix.co.uk"
-    gemspec.homepage = "http://github.com/pixeltrix/prowler/"
-    gemspec.description = "A simple wrapper class that provides basic access to the Prowl API."
+    gemspec.homepage = "http://github.com/pixeltrix/nullify_blanks/"
+    gemspec.description = "Ruby on Rails plugin to ensure nullable databases columns are set to null rather than empty strings."
     gemspec.authors = ["Andrew White"]
   end
+  Jeweler::GemcutterTasks.new
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
 end
